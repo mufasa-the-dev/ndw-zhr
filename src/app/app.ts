@@ -1,12 +1,11 @@
-import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Component } from '@angular/core';
+import { HeroComponent } from './components/hero/hero';
+import { NewsCarouselComponent } from './components/news-carousel/news-carousel';
+import { FooterComponent } from './components/footer/footer';
 
 @Component({
-  imports: [RouterOutlet],
   selector: 'app-root',
-  styleUrl: './app.css',
-  templateUrl: './app.html',
+  imports: [HeroComponent, NewsCarouselComponent, FooterComponent],
+  templateUrl: './app.html'
 })
-export class App {
-  protected readonly title = signal('ndw-zhr');
-}
+export class App {}
