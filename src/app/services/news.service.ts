@@ -1,4 +1,4 @@
-import { Component, Injectable, signal } from '@angular/core';
+import { Injectable, signal } from '@angular/core';
 
 export interface Post {
   id: string; // UUID
