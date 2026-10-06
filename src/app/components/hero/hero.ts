@@ -11,7 +11,7 @@ import { HeaderComponent } from '../header/header';
       <div class="absolute inset-0 -z-10">
         <img 
           ngSrc="hero-image.png" 
-          alt="Harcerze 1 NDW Orlik przy ognisku" 
+          alt="Hero img" 
           fill 
           priority 
           class="object-cover"
