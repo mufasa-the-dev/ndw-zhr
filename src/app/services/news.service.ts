@@ -10,7 +10,6 @@ export interface Post {
   author: string;
 }
 
-@Component({})
 @Injectable({
   providedIn: 'root'
 })
